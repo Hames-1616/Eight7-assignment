@@ -1,16 +1,31 @@
-# liftu
 
-A new Flutter project.
+# Assignment
 
-## Getting Started
+A basic flutter app that display categories and items based on the choosen category section 
+## Running the project locally
 
-This project is a starting point for a Flutter application.
+To run this project locally, you will need to Clone the Github Repo or download it from Github
 
-A few resources to get you started if this is your first Flutter project:
+    git clone github-repo-link
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+or you can download the project from the github in the zip format
+
+After unpacking install the required dependencies and run the project using the following command   
+
+    flutter pub get
+    flutter run
+## App Breakdown
+
+This app is developed using riverpod for efficient and optimal state management and other packages such as dio for http requests and carousel slider for displaying images 
+
+    https://pub.dev/packages/flutter_riverpod
+    https://pub.dev/packages/dio
+    https://pub.dev/packages/carousel_slider
+
+I could have integrated MVC architecture too but app was too small :)
+
+
+
+
+
