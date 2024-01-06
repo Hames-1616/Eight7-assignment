@@ -17,11 +17,13 @@ After unpacking install the required dependencies and run the project using the 
     flutter run
 ## App Breakdown
 
-This app is developed using riverpod for efficient and optimal state management and other packages such as dio for http requests and carousel slider for displaying images 
+This app is developed using riverpod for efficient and optimal state management and other packages such as dio for http requests and carousel slider for displaying images and a fake store api for getting the products and their details
 
     https://pub.dev/packages/flutter_riverpod
     https://pub.dev/packages/dio
     https://pub.dev/packages/carousel_slider
+    https://fakeapi.platzi.com/en/rest/products
+    
 
 I could have integrated MVC architecture too but app was too small :)
 
